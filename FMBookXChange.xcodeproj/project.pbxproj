@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0108003C18FC6D2C005A363B /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0108003B18FC6D2C005A363B /* ProfileTableViewController.m */; };
+		01179CC618DBFCB200383F06 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01179CC518DBFCB200383F06 /* CoreTelephony.framework */; };
+		0138C53818C8199900750867 /* BookPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138C53718C8199900750867 /* BookPostViewController.m */; };
+		0140528418D6D1B500C2F271 /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0140528318D6D1B500C2F271 /* BookDetailViewController.m */; };
+		018412C2193E7D1200D3A288 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018412C1193E7D1200D3A288 /* LogInView.swift */; };
+		01BA050418D2B1AB00A43219 /* BookFeedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BA050318D2B1AB00A43219 /* BookFeedTableView.m */; };
+		01BA050718D2CBF300A43219 /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BA050618D2CBF300A43219 /* FeedTableViewCell.m */; };
+		01C1C18F18D0D4DC00D8F453 /* ViewController-LogIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C1C18E18D0D4DC00D8F453 /* ViewController-LogIn.m */; };
+		01C1C19218D238F600D8F453 /* UserProfileViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C1C19118D238F600D8F453 /* UserProfileViewContoller.m */; };
+		01C1C19518D25E1400D8F453 /* globalMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C1C19418D25E1400D8F453 /* globalMethods.m */; };
+		01D1CF70190576C700AE1279 /* editProfileDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D1CF6F190576C700AE1279 /* editProfileDetails.m */; };
+		01D1CF7319057A7100AE1279 /* BasicInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D1CF7219057A7100AE1279 /* BasicInfoTableViewController.m */; };
+		01DFF11818C06044001E7F11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01DFF11618C06044001E7F11 /* InfoPlist.strings */; };
+		01DFF11A18C06044001E7F11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DFF11918C06044001E7F11 /* main.m */; };
+		01DFF11E18C06044001E7F11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DFF11D18C06044001E7F11 /* AppDelegate.m */; };
+		01DFF12118C06044001E7F11 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DFF11F18C06044001E7F11 /* Main_iPhone.storyboard */; };
+		01DFF12418C06044001E7F11 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DFF12218C06044001E7F11 /* Main_iPad.storyboard */; };
+		01DFF12718C06044001E7F11 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DFF12618C06044001E7F11 /* FirstViewController.m */; };
+		01DFF12A18C06044001E7F11 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DFF12918C06044001E7F11 /* SecondViewController.m */; };
+		01DFF12C18C06044001E7F11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DFF12B18C06044001E7F11 /* Images.xcassets */; };
+		01DFF13318C06045001E7F11 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DFF13218C06045001E7F11 /* XCTest.framework */; };
+		01DFF13418C06045001E7F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DFF10D18C06044001E7F11 /* Foundation.framework */; };
+		01DFF13518C06045001E7F11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DFF11118C06044001E7F11 /* UIKit.framework */; };
+		01DFF13D18C06045001E7F11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01DFF13B18C06045001E7F11 /* InfoPlist.strings */; };
+		01DFF13F18C06045001E7F11 /* FMBookXChangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DFF13E18C06045001E7F11 /* FMBookXChangeTests.m */; };
+		01E06D971A53BAED000FBD2C /* red-address-book-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E06D961A53BAED000FBD2C /* red-address-book-icon.png */; };
+		01E06D991A53BB32000FBD2C /* red-clock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E06D981A53BB32000FBD2C /* red-clock-icon.png */; };
+		01E06D9B1A53BB66000FBD2C /* red-user-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E06D9A1A53BB66000FBD2C /* red-user-icon.png */; };
+		01E06D9E1A5B02FA000FBD2C /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E06D9D1A5B02FA000FBD2C /* TableViewCell.m */; };
+		01E5B9DD18E1D8ED00BA663E /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5B9DC18E1D8ED00BA663E /* CameraViewController.m */; };
+		01F2FAC518DBF7E300E1DC9D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F2FAC418DBF7E300E1DC9D /* CoreFoundation.framework */; };
+		01F2FAC718DBF7EB00E1DC9D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F2FAC618DBF7EB00E1DC9D /* AVFoundation.framework */; };
+		01F2FAC818DBF7F400E1DC9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DFF11118C06044001E7F11 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01DFF13618C06045001E7F11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01DFF10218C06044001E7F11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01DFF10918C06044001E7F11;
+			remoteInfo = FMBookXChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0108003A18FC6D2C005A363B /* ProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewController.h; sourceTree = "<group>"; };
+		0108003B18FC6D2C005A363B /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
+		01179CC518DBFCB200383F06 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0138C53618C8199900750867 /* BookPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookPostViewController.h; sourceTree = "<group>"; };
+		0138C53718C8199900750867 /* BookPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookPostViewController.m; sourceTree = "<group>"; };
+		0140528218D6D1B500C2F271 /* BookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailViewController.h; sourceTree = "<group>"; };
+		0140528318D6D1B500C2F271 /* BookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailViewController.m; sourceTree = "<group>"; };
+		018412C1193E7D1200D3A288 /* LogInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInView.swift; path = ../LogInView.swift; sourceTree = "<group>"; };
+		0195F2B118DD2B4700FFEC3D /* CTMessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTMessageCenter.h; path = "../../../iOS-Runtime-Headers/Frameworks/CoreTelephony.framework/CTMessageCenter.h"; sourceTree = "<group>"; };
+		01BA050218D2B1AB00A43219 /* BookFeedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookFeedTableView.h; sourceTree = "<group>"; };
+		01BA050318D2B1AB00A43219 /* BookFeedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookFeedTableView.m; sourceTree = "<group>"; };
+		01BA050518D2CBF300A43219 /* FeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewCell.h; sourceTree = "<group>"; };
+		01BA050618D2CBF300A43219 /* FeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewCell.m; sourceTree = "<group>"; };
+		01C1C18D18D0D4DC00D8F453 /* ViewController-LogIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController-LogIn.h"; sourceTree = "<group>"; };
+		01C1C18E18D0D4DC00D8F453 /* ViewController-LogIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController-LogIn.m"; sourceTree = "<group>"; };
+		01C1C19018D238F600D8F453 /* UserProfileViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileViewContoller.h; sourceTree = "<group>"; };
+		01C1C19118D238F600D8F453 /* UserProfileViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewContoller.m; sourceTree = "<group>"; };
+		01C1C19318D25E1400D8F453 /* globalMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalMethods.h; sourceTree = "<group>"; };
+		01C1C19418D25E1400D8F453 /* globalMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = globalMethods.m; sourceTree = "<group>"; };
+		01D1CF6E190576C700AE1279 /* editProfileDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editProfileDetails.h; sourceTree = "<group>"; };
+		01D1CF6F190576C700AE1279 /* editProfileDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editProfileDetails.m; sourceTree = "<group>"; };
+		01D1CF7119057A7100AE1279 /* BasicInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicInfoTableViewController.h; sourceTree = "<group>"; };
+		01D1CF7219057A7100AE1279 /* BasicInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicInfoTableViewController.m; sourceTree = "<group>"; };
+		01DFF10A18C06044001E7F11 /* FMBookXChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMBookXChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DFF10D18C06044001E7F11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01DFF10F18C06044001E7F11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01DFF11118C06044001E7F11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01DFF11518C06044001E7F11 /* FMBookXChange-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FMBookXChange-Info.plist"; sourceTree = "<group>"; };
+		01DFF11718C06044001E7F11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01DFF11918C06044001E7F11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01DFF11B18C06044001E7F11 /* FMBookXChange-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMBookXChange-Prefix.pch"; sourceTree = "<group>"; };
+		01DFF11C18C06044001E7F11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01DFF11D18C06044001E7F11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01DFF12018C06044001E7F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		01DFF12318C06044001E7F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		01DFF12518C06044001E7F11 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		01DFF12618C06044001E7F11 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		01DFF12818C06044001E7F11 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		01DFF12918C06044001E7F11 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		01DFF12B18C06044001E7F11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01DFF13118C06045001E7F11 /* FMBookXChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMBookXChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DFF13218C06045001E7F11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		01DFF13A18C06045001E7F11 /* FMBookXChangeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FMBookXChangeTests-Info.plist"; sourceTree = "<group>"; };
+		01DFF13C18C06045001E7F11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01DFF13E18C06045001E7F11 /* FMBookXChangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMBookXChangeTests.m; sourceTree = "<group>"; };
+		01E06D961A53BAED000FBD2C /* red-address-book-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-address-book-icon.png"; sourceTree = "<group>"; };
+		01E06D981A53BB32000FBD2C /* red-clock-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-clock-icon.png"; sourceTree = "<group>"; };
+		01E06D9A1A53BB66000FBD2C /* red-user-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-user-icon.png"; sourceTree = "<group>"; };
+		01E06D9C1A5B02FA000FBD2C /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		01E06D9D1A5B02FA000FBD2C /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		01E5B9DB18E1D8ED00BA663E /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		01E5B9DC18E1D8ED00BA663E /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		01EF3344193E546900D787F2 /* FMBookXChange-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMBookXChange-Bridging-Header.h"; sourceTree = "<group>"; };
+		01F2FAC418DBF7E300E1DC9D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		01F2FAC618DBF7EB00E1DC9D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01DFF10718C06044001E7F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01179CC618DBFCB200383F06 /* CoreTelephony.framework in Frameworks */,
+				01F2FAC718DBF7EB00E1DC9D /* AVFoundation.framework in Frameworks */,
+				01F2FAC818DBF7F400E1DC9D /* UIKit.framework in Frameworks */,
+				01F2FAC518DBF7E300E1DC9D /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DFF12E18C06045001E7F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DFF13318C06045001E7F11 /* XCTest.framework in Frameworks */,
+				01DFF13518C06045001E7F11 /* UIKit.framework in Frameworks */,
+				01DFF13418C06045001E7F11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01DFF10118C06044001E7F11 = {
+			isa = PBXGroup;
+			children = (
+				01DFF11318C06044001E7F11 /* FMBookXChange */,
+				01DFF13818C06045001E7F11 /* FMBookXChangeTests */,
+				01DFF10C18C06044001E7F11 /* Frameworks */,
+				01DFF10B18C06044001E7F11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01DFF10B18C06044001E7F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01DFF10A18C06044001E7F11 /* FMBookXChange.app */,
+				01DFF13118C06045001E7F11 /* FMBookXChangeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01DFF10C18C06044001E7F11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01179CC518DBFCB200383F06 /* CoreTelephony.framework */,
+				01F2FAC618DBF7EB00E1DC9D /* AVFoundation.framework */,
+				01F2FAC418DBF7E300E1DC9D /* CoreFoundation.framework */,
+				01DFF10D18C06044001E7F11 /* Foundation.framework */,
+				01DFF10F18C06044001E7F11 /* CoreGraphics.framework */,
+				01DFF11118C06044001E7F11 /* UIKit.framework */,
+				01DFF13218C06045001E7F11 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01DFF11318C06044001E7F11 /* FMBookXChange */ = {
+			isa = PBXGroup;
+			children = (
+				01DFF14818C06176001E7F11 /* Images */,
+				01E06D9C1A5B02FA000FBD2C /* TableViewCell.h */,
+				01E06D9D1A5B02FA000FBD2C /* TableViewCell.m */,
+				0195F2B118DD2B4700FFEC3D /* CTMessageCenter.h */,
+				01DFF11C18C06044001E7F11 /* AppDelegate.h */,
+				01DFF11D18C06044001E7F11 /* AppDelegate.m */,
+				01DFF11F18C06044001E7F11 /* Main_iPhone.storyboard */,
+				01D1CF7119057A7100AE1279 /* BasicInfoTableViewController.h */,
+				01D1CF7219057A7100AE1279 /* BasicInfoTableViewController.m */,
+				01D1CF6E190576C700AE1279 /* editProfileDetails.h */,
+				01D1CF6F190576C700AE1279 /* editProfileDetails.m */,
+				0108003A18FC6D2C005A363B /* ProfileTableViewController.h */,
+				0108003B18FC6D2C005A363B /* ProfileTableViewController.m */,
+				0140528218D6D1B500C2F271 /* BookDetailViewController.h */,
+				0140528318D6D1B500C2F271 /* BookDetailViewController.m */,
+				01BA050218D2B1AB00A43219 /* BookFeedTableView.h */,
+				01BA050318D2B1AB00A43219 /* BookFeedTableView.m */,
+				01BA050518D2CBF300A43219 /* FeedTableViewCell.h */,
+				01BA050618D2CBF300A43219 /* FeedTableViewCell.m */,
+				01C1C19018D238F600D8F453 /* UserProfileViewContoller.h */,
+				01C1C19118D238F600D8F453 /* UserProfileViewContoller.m */,
+				01C1C18D18D0D4DC00D8F453 /* ViewController-LogIn.h */,
+				01C1C18E18D0D4DC00D8F453 /* ViewController-LogIn.m */,
+				01C1C19318D25E1400D8F453 /* globalMethods.h */,
+				018412C1193E7D1200D3A288 /* LogInView.swift */,
+				01C1C19418D25E1400D8F453 /* globalMethods.m */,
+				01DFF12218C06044001E7F11 /* Main_iPad.storyboard */,
+				01DFF12518C06044001E7F11 /* FirstViewController.h */,
+				01DFF12618C06044001E7F11 /* FirstViewController.m */,
+				01E5B9DB18E1D8ED00BA663E /* CameraViewController.h */,
+				01E5B9DC18E1D8ED00BA663E /* CameraViewController.m */,
+				01DFF12818C06044001E7F11 /* SecondViewController.h */,
+				01DFF12918C06044001E7F11 /* SecondViewController.m */,
+				01DFF12B18C06044001E7F11 /* Images.xcassets */,
+				01DFF11418C06044001E7F11 /* Supporting Files */,
+				0138C53618C8199900750867 /* BookPostViewController.h */,
+				0138C53718C8199900750867 /* BookPostViewController.m */,
+				01EF3344193E546900D787F2 /* FMBookXChange-Bridging-Header.h */,
+			);
+			path = FMBookXChange;
+			sourceTree = "<group>";
+		};
+		01DFF11418C06044001E7F11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01DFF11518C06044001E7F11 /* FMBookXChange-Info.plist */,
+				01DFF11618C06044001E7F11 /* InfoPlist.strings */,
+				01DFF11918C06044001E7F11 /* main.m */,
+				01DFF11B18C06044001E7F11 /* FMBookXChange-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01DFF13818C06045001E7F11 /* FMBookXChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				01DFF13E18C06045001E7F11 /* FMBookXChangeTests.m */,
+				01DFF13918C06045001E7F11 /* Supporting Files */,
+			);
+			path = FMBookXChangeTests;
+			sourceTree = "<group>";
+		};
+		01DFF13918C06045001E7F11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01DFF13A18C06045001E7F11 /* FMBookXChangeTests-Info.plist */,
+				01DFF13B18C06045001E7F11 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01DFF14818C06176001E7F11 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				01E06D9A1A53BB66000FBD2C /* red-user-icon.png */,
+				01E06D981A53BB32000FBD2C /* red-clock-icon.png */,
+				01E06D961A53BAED000FBD2C /* red-address-book-icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01DFF10918C06044001E7F11 /* FMBookXChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DFF14218C06045001E7F11 /* Build configuration list for PBXNativeTarget "FMBookXChange" */;
+			buildPhases = (
+				01DFF10618C06044001E7F11 /* Sources */,
+				01DFF10718C06044001E7F11 /* Frameworks */,
+				01DFF10818C06044001E7F11 /* Resources */,
+				01F2FAC918DBF9CB00E1DC9D /* ShellScript */,
+				01F2FACA18DBF9EC00E1DC9D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMBookXChange;
+			productName = FMBookXChange;
+			productReference = 01DFF10A18C06044001E7F11 /* FMBookXChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01DFF13018C06045001E7F11 /* FMBookXChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DFF14518C06045001E7F11 /* Build configuration list for PBXNativeTarget "FMBookXChangeTests" */;
+			buildPhases = (
+				01DFF12D18C06045001E7F11 /* Sources */,
+				01DFF12E18C06045001E7F11 /* Frameworks */,
+				01DFF12F18C06045001E7F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01DFF13718C06045001E7F11 /* PBXTargetDependency */,
+			);
+			name = FMBookXChangeTests;
+			productName = FMBookXChangeTests;
+			productReference = 01DFF13118C06045001E7F11 /* FMBookXChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01DFF10218C06044001E7F11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Julio Salamanca";
+				TargetAttributes = {
+					01DFF10918C06044001E7F11 = {
+						DevelopmentTeam = ZN2YU6Y56A;
+					};
+					01DFF13018C06045001E7F11 = {
+						TestTargetID = 01DFF10918C06044001E7F11;
+					};
+				};
+			};
+			buildConfigurationList = 01DFF10518C06044001E7F11 /* Build configuration list for PBXProject "FMBookXChange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01DFF10118C06044001E7F11;
+			productRefGroup = 01DFF10B18C06044001E7F11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01DFF10918C06044001E7F11 /* FMBookXChange */,
+				01DFF13018C06045001E7F11 /* FMBookXChangeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01DFF10818C06044001E7F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E06D9B1A53BB66000FBD2C /* red-user-icon.png in Resources */,
+				01DFF12418C06044001E7F11 /* Main_iPad.storyboard in Resources */,
+				01DFF12C18C06044001E7F11 /* Images.xcassets in Resources */,
+				01DFF12118C06044001E7F11 /* Main_iPhone.storyboard in Resources */,
+				01E06D991A53BB32000FBD2C /* red-clock-icon.png in Resources */,
+				01E06D971A53BAED000FBD2C /* red-address-book-icon.png in Resources */,
+				01DFF11818C06044001E7F11 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DFF12F18C06045001E7F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DFF13D18C06045001E7F11 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01F2FAC918DBF9CB00E1DC9D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		01F2FACA18DBF9EC00E1DC9D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01DFF10618C06044001E7F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D1CF7319057A7100AE1279 /* BasicInfoTableViewController.m in Sources */,
+				0140528418D6D1B500C2F271 /* BookDetailViewController.m in Sources */,
+				01DFF12A18C06044001E7F11 /* SecondViewController.m in Sources */,
+				01D1CF70190576C700AE1279 /* editProfileDetails.m in Sources */,
+				01DFF11E18C06044001E7F11 /* AppDelegate.m in Sources */,
+				01BA050418D2B1AB00A43219 /* BookFeedTableView.m in Sources */,
+				01C1C18F18D0D4DC00D8F453 /* ViewController-LogIn.m in Sources */,
+				01C1C19218D238F600D8F453 /* UserProfileViewContoller.m in Sources */,
+				01BA050718D2CBF300A43219 /* FeedTableViewCell.m in Sources */,
+				01E06D9E1A5B02FA000FBD2C /* TableViewCell.m in Sources */,
+				0138C53818C8199900750867 /* BookPostViewController.m in Sources */,
+				01DFF12718C06044001E7F11 /* FirstViewController.m in Sources */,
+				01E5B9DD18E1D8ED00BA663E /* CameraViewController.m in Sources */,
+				0108003C18FC6D2C005A363B /* ProfileTableViewController.m in Sources */,
+				01DFF11A18C06044001E7F11 /* main.m in Sources */,
+				018412C2193E7D1200D3A288 /* LogInView.swift in Sources */,
+				01C1C19518D25E1400D8F453 /* globalMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DFF12D18C06045001E7F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DFF13F18C06045001E7F11 /* FMBookXChangeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01DFF13718C06045001E7F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01DFF10918C06044001E7F11 /* FMBookXChange */;
+			targetProxy = 01DFF13618C06045001E7F11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01DFF11618C06044001E7F11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DFF11718C06044001E7F11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01DFF11F18C06044001E7F11 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DFF12018C06044001E7F11 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		01DFF12218C06044001E7F11 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DFF12318C06044001E7F11 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		01DFF13B18C06045001E7F11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DFF13C18C06045001E7F11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01DFF14018C06045001E7F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01DFF14118C06045001E7F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01DFF14318C06045001E7F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMBookXChange/FMBookXChange-Prefix.pch";
+				INFOPLIST_FILE = "FMBookXChange/FMBookXChange-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FMBookXChange/FMBookXChange-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01DFF14418C06045001E7F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMBookXChange/FMBookXChange-Prefix.pch";
+				INFOPLIST_FILE = "FMBookXChange/FMBookXChange-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FMBookXChange/FMBookXChange-Bridging-Header.h";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01DFF14618C06045001E7F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FMBookXChange.app/FMBookXChange";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMBookXChange/FMBookXChange-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FMBookXChangeTests/FMBookXChangeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		01DFF14718C06045001E7F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FMBookXChange.app/FMBookXChange";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMBookXChange/FMBookXChange-Prefix.pch";
+				INFOPLIST_FILE = "FMBookXChangeTests/FMBookXChangeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01DFF10518C06044001E7F11 /* Build configuration list for PBXProject "FMBookXChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DFF14018C06045001E7F11 /* Debug */,
+				01DFF14118C06045001E7F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DFF14218C06045001E7F11 /* Build configuration list for PBXNativeTarget "FMBookXChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DFF14318C06045001E7F11 /* Debug */,
+				01DFF14418C06045001E7F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DFF14518C06045001E7F11 /* Build configuration list for PBXNativeTarget "FMBookXChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DFF14618C06045001E7F11 /* Debug */,
+				01DFF14718C06045001E7F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01DFF10218C06044001E7F11 /* Project object */;
+}
